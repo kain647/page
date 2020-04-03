@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const ProgressContainer = styled.div`
   display: flex;
   width: 300px;
-  height: 20px;
+  height: 10px;
   background-color: #ccc;
   border-radius: 50px;
   overflow: hidden;
