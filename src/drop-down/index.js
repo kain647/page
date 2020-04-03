@@ -35,6 +35,11 @@ const DropDown = () => {
     <DropDownContainer>
       <CurrentValue onClick={() => toggle(!listOpen)}>
         {current.label}
+        {listOpen ? (
+          <i className="fas fa-angle-up"></i>
+        ) : (
+          <i className="fas fa-angle-down"></i>
+        )}
       </CurrentValue>
       {listOpen && (
         <ListContainer>
