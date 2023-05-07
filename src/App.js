@@ -6,12 +6,15 @@ import DropDown from "./drop-down";
 import Globalstyles from "./globals";
 import { ThemeProvider } from "styled-components";
 import theme from "./theme";
+import Profile from "./drop-down-menu-v2";
 
 function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
         <Globalstyles />
+        <Profile />
+        <ProgressBar />
         <DropDown />
       </ThemeProvider>
     </>
